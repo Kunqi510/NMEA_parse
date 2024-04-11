@@ -1,16 +1,25 @@
+USING ControlSystem;
+USING ControlModule;
 PROGRAM MyProgram
     VAR_EXTERNAL
-
+        startButton : BOOL;
+        stopButton : BOOL;
     END_VAR
 
     VAR
-
+        workGroup_1 : WorkGroup;
+        valve : valveA;
+        // valve : ValveB;
     END_VAR
 
     VAR_TEMP
 
     END_VAR
-
-    // code here
-    ;
+    workGroup_1.Initialize(valve);
+    IF startButton THEN
+        workGroup_1.Start();
+    END_IF;
+    IF stopButton THEN
+        workGroup_1.Stop();
+    END_IF;
 END_PROGRAM

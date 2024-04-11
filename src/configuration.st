@@ -3,6 +3,7 @@ CONFIGURATION MyConfiguration
     PROGRAM P1 WITH Main: MyProgram;
 
     VAR_GLOBAL
-
+        startButton : BOOL;
+        stopButton : BOOL;
     END_VAR
 END_CONFIGURATION

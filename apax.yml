@@ -11,3 +11,7 @@ devDependencies:
   "@ax/sdk": 2311.0.3
 installStrategy: strict
 apaxVersion: 3.1.1
+registries:
+  "@fa_sup_cn": https://code.siemens.com/api/v4/projects/343725/packages/npm
+dependencies:
+  "@fa_sup_cn/control-module": ^0.0.1
