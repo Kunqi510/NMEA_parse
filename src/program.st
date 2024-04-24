@@ -4,6 +4,8 @@ PROGRAM MyProgram
     VAR_EXTERNAL
         startButton : BOOL;
         stopButton : BOOL;
+        homeSignal : BOOL;
+        workSignal : BOOL;
     END_VAR
 
     VAR
@@ -22,4 +24,5 @@ PROGRAM MyProgram
     IF stopButton THEN
         workGroup_1.Stop();
     END_IF;
+    workGroup_1.WriteCyclic(gohome=>homeSignal,gowork=>workSignal);
 END_PROGRAM

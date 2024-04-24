@@ -1,0 +1,17 @@
+#ExampleTrace - 2024-04-22T03:23:46.1952671Z
+Time,startButton,stopButton,homeSignal,workSignal
+2024-04-22T03:23:55.7652639Z,False,False,False,False
+2024-04-22T03:24:06.0518034Z,False,False,False,False
+2024-04-22T03:24:22.5652215Z,False,False,False,False
+2024-04-22T03:24:32.8311982Z,False,False,False,False
+2024-04-22T03:24:45.0319206Z,True,False,False,True
+2024-04-22T03:24:56.6160793Z,True,True,True,False
+2024-04-22T03:25:08.5650142Z,True,True,True,False
+2024-04-22T03:25:18.6301722Z,False,True,True,False
+2024-04-22T03:25:28.6638869Z,False,False,True,False
+2024-04-22T03:25:41.0500072Z,False,False,True,False
+2024-04-22T03:25:51.6419075Z,False,False,True,False
+2024-04-22T03:26:02.5928013Z,False,False,True,False
+2024-04-22T03:26:12.5556139Z,False,False,True,False
+2024-04-22T03:26:23.2799302Z,False,False,True,False
+2024-04-22T03:26:34.6152373Z,False,False,True,False

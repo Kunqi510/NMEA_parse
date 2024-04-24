@@ -10,7 +10,8 @@
       "@fa_sup_cn/control-module": "^0.0.1"
     },
     "devDependencies": {
-      "@ax/sdk": "2311.0.3"
+      "@ax/sdk": "2311.0.3",
+      "@ax/dcp-utility": "^1.1.1"
     }
   },
   "packages": {
@@ -37,14 +38,24 @@
         "@ax/certificate-management": "1.1.1"
       }
     },
+    "@ax/dcp-utility": {
+      "name": "@ax/dcp-utility",
+      "version": "1.1.1",
+      "integrity": "sha512-DqtFtdNT5XXgIubdHHkVZyTkZepV6EuCHOJdmfHNeXY115EF7OrXiQJoSqP9vo9drcfhf9qd+f8FRtlzLTPyvA==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/dcp-utility/-/dcp-utility-1.1.1.tgz",
+      "dependencies": {
+        "@ax/dcp-utility-win-x64": "1.1.1",
+        "@ax/dcp-utility-linux-x64": "1.1.1"
+      }
+    },
     "@fa_sup_cn/control-module": {
       "name": "@fa_sup_cn/control-module",
       "version": "0.0.1",
       "integrity": "sha1-5WfjWPS7qvNK8bBQ3R0kUB8R0Y0=",
       "resolved": "https://code.siemens.com/api/v4/projects/343725/packages/npm/@fa_sup_cn/control-module/-/@fa_sup_cn/control-module-0.0.1.tgz",
       "dependencies": {
-        "@ax/system-timer": "^6.0.94",
-        "@ax/system-edgedetection": "^6.0.94"
+        "@ax/system-edgedetection": "^6.0.94",
+        "@ax/system-timer": "^6.0.94"
       }
     },
     "@ax/axunitst": {
@@ -196,11 +207,30 @@
         "@ax/certificate-management-linux-x64": "1.1.1"
       }
     },
-    "@ax/system-timer": {
-      "name": "@ax/system-timer",
-      "version": "6.0.94",
-      "integrity": "sha512-z2qQVgSKHt78DJZTgIxoAvZdviUzzZmIC3A5bXoWx3ak4fot7D9sa0bKmKp90kP5JqVnkEbl12zYtrBBEVKmNg==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-timer/-/system-timer-6.0.94.tgz",
+    "@ax/dcp-utility-win-x64": {
+      "name": "@ax/dcp-utility-win-x64",
+      "version": "1.1.1",
+      "integrity": "sha512-yoUZfyMbxehhYOVOZl/qecEmZxk6TpYJxO7jIdebjzchMM6aA3HVzBKif0mxKdv4ysNrO+pg4bCGKdsaB4c+yA==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/dcp-utility-win-x64/-/dcp-utility-win-x64-1.1.1.tgz",
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "dependencies": {}
+    },
+    "@ax/dcp-utility-linux-x64": {
+      "name": "@ax/dcp-utility-linux-x64",
+      "version": "1.1.1",
+      "integrity": "sha512-5ZDkWMtN9nCOd6CC0h98opbgcFL4hs0xHP6W6S+8q7T2WnoSxA1PqFSg/C2WtvqpvqGOekpZfa+o61qatNFp9w==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/dcp-utility-linux-x64/-/dcp-utility-linux-x64-1.1.1.tgz",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
       "dependencies": {}
     },
     "@ax/system-edgedetection": {
@@ -208,6 +238,13 @@
       "version": "6.0.94",
       "integrity": "sha512-gMMbEpKb86DCtbiBW3HzElEO+yXx3VskdPq0TPQKNgG8886LVJ4Skkd/yJ9YEElfR+Gvg5oVCLf0St1RSfH0BQ==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-edgedetection/-/system-edgedetection-6.0.94.tgz",
+      "dependencies": {}
+    },
+    "@ax/system-timer": {
+      "name": "@ax/system-timer",
+      "version": "6.0.94",
+      "integrity": "sha512-z2qQVgSKHt78DJZTgIxoAvZdviUzzZmIC3A5bXoWx3ak4fot7D9sa0bKmKp90kP5JqVnkEbl12zYtrBBEVKmNg==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-timer/-/system-timer-6.0.94.tgz",
       "dependencies": {}
     },
     "@ax/axunitst-library": {

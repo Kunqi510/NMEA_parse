@@ -22,6 +22,14 @@ NAMESPACE ControlSystem
         METHOD PUBLIC Stop : Int
             _valve.Close();
         END_METHOD
+
+        METHOD PUBLIC WriteCyclic
+            VAR_OUTPUT
+                gohome:BOOL;
+                gowork:BOOL;
+            END_VAR
+            _valve.SetOutput(gohome,gowork);
+        END_METHOD
     END_CLASS
 
 END_NAMESPACE

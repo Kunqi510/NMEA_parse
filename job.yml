@@ -1,0 +1,11 @@
+name: "ExampleTrace"
+jobType: finite
+signals:
+  - "startButton"
+  - "stopButton"
+  - "homeSignal"
+  - "workSignal"
+sampleCount: 10000
+frequency: 10
+checkPoint:
+  task: "MyConfiguration.Main"
