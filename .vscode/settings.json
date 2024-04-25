@@ -1,3 +1,5 @@
 {
-    "tracing.pinnedPlcs": []
+    "tracing.pinnedPlcs": [
+        "plc_1.profinet 接口_1.yml"
+    ]
 }

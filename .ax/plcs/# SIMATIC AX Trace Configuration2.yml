@@ -1,0 +1,17 @@
+# SIMATIC AX Trace Configuration
+## The line above allows for validation and auto completion of YAML properties in this configuration file when opened in the AX Code IDE.
+
+## The information about Configuration File could be found on https://console.simatic-ax.siemens.io/docs/tracing/configuration-file
+
+## The desired name of the trace job.
+name: "ExampleTrace"
+jobType: finite
+signals:
+  - "startButton"
+  - "stopButton"
+  - "homeSignal"
+  - "workSignal"
+sampleCount: 50
+frequency: 10
+checkPoint:
+  task: "MyConfiguration.Main"
