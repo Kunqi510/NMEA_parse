@@ -25,4 +25,5 @@ PROGRAM MyProgram
         workGroup_1.Stop();
     END_IF;
     workGroup_1.WriteCyclic(gohome=>homeSignal,gowork=>workSignal);
+    
 END_PROGRAM
