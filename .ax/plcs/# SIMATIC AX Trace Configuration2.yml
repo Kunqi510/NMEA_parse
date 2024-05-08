@@ -11,7 +11,7 @@ signals:
   - "stopButton"
   - "homeSignal"
   - "workSignal"
-sampleCount: 50
-frequency: 10
+sampleCount: 30
+frequency: 1
 checkPoint:
   task: "MyConfiguration.Main"

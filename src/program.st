@@ -17,6 +17,7 @@ PROGRAM MyProgram
     VAR_TEMP
 
     END_VAR
+    
     workGroup_1.Initialize(valve);
     IF startButton THEN
         workGroup_1.Start();

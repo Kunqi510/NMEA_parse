@@ -40,12 +40,12 @@
     },
     "@ax/dcp-utility": {
       "name": "@ax/dcp-utility",
-      "version": "1.1.1",
-      "integrity": "sha512-DqtFtdNT5XXgIubdHHkVZyTkZepV6EuCHOJdmfHNeXY115EF7OrXiQJoSqP9vo9drcfhf9qd+f8FRtlzLTPyvA==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/dcp-utility/-/dcp-utility-1.1.1.tgz",
+      "version": "1.1.2",
+      "integrity": "sha512-QMXgbfK5QCKOZl8drFBIXPkxn00E7NqT0ThkO2IwBFABqjNeWPjcqGEm89IvYGgm60zJ2XVpN/mI//3bWsY9ow==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/dcp-utility/-/dcp-utility-1.1.2.tgz",
       "dependencies": {
-        "@ax/dcp-utility-win-x64": "1.1.1",
-        "@ax/dcp-utility-linux-x64": "1.1.1"
+        "@ax/dcp-utility-win-x64": "1.1.2",
+        "@ax/dcp-utility-linux-x64": "1.1.2"
       }
     },
     "@fa_sup_cn/control-module": {
@@ -209,9 +209,9 @@
     },
     "@ax/dcp-utility-win-x64": {
       "name": "@ax/dcp-utility-win-x64",
-      "version": "1.1.1",
-      "integrity": "sha512-yoUZfyMbxehhYOVOZl/qecEmZxk6TpYJxO7jIdebjzchMM6aA3HVzBKif0mxKdv4ysNrO+pg4bCGKdsaB4c+yA==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/dcp-utility-win-x64/-/dcp-utility-win-x64-1.1.1.tgz",
+      "version": "1.1.2",
+      "integrity": "sha512-PlUPceWRZ8+ZoGv0N2XzXpDAObNrO6UW3p0u5Yalm/uPdWqakDKfqBR7w0bh8cuR27deZYfAXXhTKflYHTPfSQ==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/dcp-utility-win-x64/-/dcp-utility-win-x64-1.1.2.tgz",
       "os": [
         "win32"
       ],
@@ -222,9 +222,9 @@
     },
     "@ax/dcp-utility-linux-x64": {
       "name": "@ax/dcp-utility-linux-x64",
-      "version": "1.1.1",
-      "integrity": "sha512-5ZDkWMtN9nCOd6CC0h98opbgcFL4hs0xHP6W6S+8q7T2WnoSxA1PqFSg/C2WtvqpvqGOekpZfa+o61qatNFp9w==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/dcp-utility-linux-x64/-/dcp-utility-linux-x64-1.1.1.tgz",
+      "version": "1.1.2",
+      "integrity": "sha512-79aJkNKsKAb3fxnQi9ZwMEWfNhflZXswucH3fkbeH8RD0t2s6Dlg/4YDgdgEJNNnUUDPe30nUftSbhGrsSlBMg==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/dcp-utility-linux-x64/-/dcp-utility-linux-x64-1.1.2.tgz",
       "os": [
         "linux"
       ],
