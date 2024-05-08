@@ -10,7 +10,7 @@ PROGRAM MyProgram
 
     VAR
         workGroup_1 : WorkGroup;
-        valve : valveA;
+        valve : ValveB;
         // valve : ValveB;
     END_VAR
 
