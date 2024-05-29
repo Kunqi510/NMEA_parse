@@ -5,7 +5,7 @@ NAMESPACE ControlSystem
         VAR PUBLIC
 
         END_VAR
-
+       
         VAR PRIVATE
             _valve : IValve;
         END_VAR
