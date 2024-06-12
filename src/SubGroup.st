@@ -2,7 +2,7 @@ USING ControlModule;
 
 NAMESPACE ControlSystem
     
-CLASS SubGroup EXTENDS WorkGroup
+CLASS  SubGroup EXTENDS WorkGroup
     VAR
         
     END_VAR
