@@ -1,7 +1,7 @@
 USING ControlModule;
 NAMESPACE ControlSystem
 
-    CLASS PUBLIC WorkGroup
+    CLASS PUBLIC WorkGroup IMPLEMENTS IGroup
         VAR PUBLIC
 
         END_VAR
