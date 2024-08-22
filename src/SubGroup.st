@@ -8,6 +8,8 @@ CLASS  SubGroup EXTENDS WorkGroup
     END_VAR
     
         METHOD PUBLIC OVERRIDE Start : INT
+            // 预控制逻辑
+            // ....
             SUPER.Start();
         END_METHOD
 END_CLASS

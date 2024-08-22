@@ -1,7 +1,7 @@
 USING ControlModule;
 NAMESPACE ControlSystem
     
-    INTERFACE IGroup
+    INTERFACE IGroup 
 
     METHOD  Initialize : BOOL
         VAR_INPUT
