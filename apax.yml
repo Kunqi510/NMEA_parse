@@ -11,7 +11,7 @@ variables:
 devDependencies:
   "@ax/sdk": 2311.0.3
   "@ax/dcp-utility": ^1.1.1
-installStrategy: strict
+installStrategy: overridable
 apaxVersion: 3.1.1
 registries:
   "@fa_sup_cn": https://code.siemens.com/api/v4/projects/343725/packages/npm/
@@ -19,7 +19,6 @@ dependencies:
   "@fa_sup_cn/control-module": ^0.0.1
 scripts:
   setscope:
-    - apax config set token $1  --registry
-      https://code.siemens.com/api/v4/projects/343725/packages/npm/
+    - apax config set token $1  --registry https://code.siemens.com/api/v4/projects/343725/packages/npm/
   load:
     - apax sld load -i bin/plcsim -t 192.168.0.1  --accept-security-disclaimer -m:delta

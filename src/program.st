@@ -10,7 +10,8 @@ PROGRAM MyProgram
 
     VAR
         workGroup_1 : WorkGroup;
-        valve : ValveB;
+        valve : ValveA;
+        variable : INT;
         // valve : ValveB;
     END_VAR
 
@@ -21,6 +22,7 @@ PROGRAM MyProgram
     workGroup_1.Initialize(valve);
     IF startButton THEN
         workGroup_1.Start();
+        variable := 2;
     END_IF;
     IF stopButton THEN
         workGroup_1.Stop();
