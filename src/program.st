@@ -10,7 +10,7 @@ PROGRAM MyProgram
 
     VAR
         workGroup_1 : WorkGroup;
-        valve : ValveA;
+        valve : ValveB;
         variable : INT;
         // valve : ValveB;
     END_VAR
