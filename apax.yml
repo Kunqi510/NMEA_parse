@@ -22,4 +22,4 @@ scripts:
     - apax config set token $1  --registry
       https://code.siemens.com/api/v4/projects/343725/packages/npm/
   load:
-    - apax sld load -i bin/plcsim -t 192.168.0.1  --accept-security-disclaimer -m:delta
+    - apax sld load -i bin/plcsim -t 192.168.0.10  --accept-security-disclaimer 
