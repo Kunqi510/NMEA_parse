@@ -2,7 +2,7 @@
   "name": "control-system",
   "version": "0.0.0",
   "lockFileVersion": "2",
-  "installStrategy": "strict",
+  "installStrategy": "overridable",
   "root": {
     "name": "control-system",
     "version": "0.0.0",
@@ -36,7 +36,8 @@
         "@ax/performance-info": "1.1.0",
         "@ax/plc-info": "2.3.0",
         "@ax/certificate-management": "1.1.1"
-      }
+      },
+      "deprecated": "This version of the SDK is deprecated. Please use the latest version of the SDK. For more information see https://console.simatic-ax.siemens.io/docs/releases"
     },
     "@ax/dcp-utility": {
       "name": "@ax/dcp-utility",
@@ -70,14 +71,16 @@
         "@ax/axunitst-llvm-runner-gen": "4.1.8",
         "@ax/axunitst-docs": "4.1.8",
         "@ax/build-native": "16.0.3"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/axunitst-ls-contrib": {
       "name": "@ax/axunitst-ls-contrib",
       "version": "4.1.8",
       "integrity": "sha512-dCrf/Ou/NT0zFh6wVXSxYphHOjLoUgOBJWDIBVzBpRDbhCebA/BuHLmVVGMllujkMreMlGRITjjquuqILquOAA==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/axunitst-ls-contrib/-/axunitst-ls-contrib-4.1.8.tgz",
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/mod": {
       "name": "@ax/mod",
@@ -87,7 +90,8 @@
       "dependencies": {
         "@ax/mod-win-x64": "1.1.2",
         "@ax/mod-linux-x64": "1.1.2"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit\nhttps://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/mon": {
       "name": "@ax/mon",
@@ -97,7 +101,8 @@
       "dependencies": {
         "@ax/mon-win-x64": "1.1.2",
         "@ax/mon-linux-x64": "1.1.2"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit\nhttps://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/sdb": {
       "name": "@ax/sdb",
@@ -107,7 +112,8 @@
       "dependencies": {
         "@ax/sdb-win-x64": "1.1.2",
         "@ax/sdb-linux-x64": "1.1.2"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit\nhttps://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/sld": {
       "name": "@ax/sld",
@@ -117,7 +123,8 @@
       "cpu": [
         "x64"
       ],
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit\nhttps://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/st": {
       "name": "@ax/st",
@@ -138,7 +145,8 @@
       "dependencies": {
         "@ax/target-llvm-win-x64": "6.0.146",
         "@ax/target-llvm-linux-x64": "6.0.146"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/target-mc7plus": {
       "name": "@ax/target-mc7plus",
@@ -148,14 +156,16 @@
       "dependencies": {
         "@ax/target-mc7plus-win-x64": "6.0.146",
         "@ax/target-mc7plus-linux-x64": "6.0.146"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/simatic-pragma-stc-plugin": {
       "name": "@ax/simatic-pragma-stc-plugin",
       "version": "2.0.12",
       "integrity": "sha512-KLo6lEPU5NfahK6Rr9MBlItSMU4VO+vePUGhk5nooM/1TZYtekJnLE4xRoZLeiMk+MA6glodTw6YkPzl7p7z4A==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/simatic-pragma-stc-plugin/-/simatic-pragma-stc-plugin-2.0.12.tgz",
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit\nhttps://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/trace": {
       "name": "@ax/trace",
@@ -165,7 +175,8 @@
       "dependencies": {
         "@ax/trace-win-x64": "2.7.0",
         "@ax/trace-linux-x64": "2.7.0"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions"
     },
     "@ax/diagnostic-buffer": {
       "name": "@ax/diagnostic-buffer",
@@ -175,7 +186,8 @@
       "dependencies": {
         "@ax/diagnostic-buffer-win-x64": "1.2.0",
         "@ax/diagnostic-buffer-linux-x64": "1.2.0"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions"
     },
     "@ax/performance-info": {
       "name": "@ax/performance-info",
@@ -185,7 +197,8 @@
       "dependencies": {
         "@ax/performance-info-win-x64": "1.1.0",
         "@ax/performance-info-linux-x64": "1.1.0"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions"
     },
     "@ax/plc-info": {
       "name": "@ax/plc-info",
@@ -195,7 +208,8 @@
       "dependencies": {
         "@ax/plc-info-linux-x64": "2.3.0",
         "@ax/plc-info-win-x64": "2.3.0"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/certificate-management": {
       "name": "@ax/certificate-management",
@@ -205,7 +219,8 @@
       "dependencies": {
         "@ax/certificate-management-win-x64": "1.1.1",
         "@ax/certificate-management-linux-x64": "1.1.1"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions"
     },
     "@ax/dcp-utility-win-x64": {
       "name": "@ax/dcp-utility-win-x64",
@@ -238,14 +253,16 @@
       "version": "6.0.94",
       "integrity": "sha512-gMMbEpKb86DCtbiBW3HzElEO+yXx3VskdPq0TPQKNgG8886LVJ4Skkd/yJ9YEElfR+Gvg5oVCLf0St1RSfH0BQ==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-edgedetection/-/system-edgedetection-6.0.94.tgz",
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": "Package deprecated"
     },
     "@ax/system-timer": {
       "name": "@ax/system-timer",
       "version": "6.0.94",
       "integrity": "sha512-z2qQVgSKHt78DJZTgIxoAvZdviUzzZmIC3A5bXoWx3ak4fot7D9sa0bKmKp90kP5JqVnkEbl12zYtrBBEVKmNg==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-timer/-/system-timer-6.0.94.tgz",
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/axunitst-library": {
       "name": "@ax/axunitst-library",
@@ -254,7 +271,8 @@
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/axunitst-library/-/axunitst-library-4.1.8.tgz",
       "dependencies": {
         "@ax/system-strings": "6.0.94"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/axunitst-runner": {
       "name": "@ax/axunitst-runner",
@@ -264,7 +282,8 @@
       "dependencies": {
         "@ax/axunitst-runner-linux-x64": "4.1.8",
         "@ax/axunitst-runner-win-x64": "4.1.8"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/axunitst-generator": {
       "name": "@ax/axunitst-generator",
@@ -274,21 +293,24 @@
       "dependencies": {
         "@ax/axunitst-generator-linux-x64": "4.1.8",
         "@ax/axunitst-generator-win-x64": "4.1.8"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/axunitst-llvm-runner-gen": {
       "name": "@ax/axunitst-llvm-runner-gen",
       "version": "4.1.8",
       "integrity": "sha512-XMmU+Qr1ElNFLJAnQ3JKh9QHr3/IPJo+KoR8C8sZqoIy/IzRCKY3IubvJ4KPGnBZzz+DI5UxIuH9bwvq5YWqIw==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/axunitst-llvm-runner-gen/-/axunitst-llvm-runner-gen-4.1.8.tgz",
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/axunitst-docs": {
       "name": "@ax/axunitst-docs",
       "version": "4.1.8",
       "integrity": "sha512-g4XsjaqZoJvYcz58ghirISMS/SfFl9UGNFJGr0afhLmYkqEyoLi6p9+zuLk4+SWtbMj3FNu/cc1ReSSS/GACEQ==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/axunitst-docs/-/axunitst-docs-4.1.8.tgz",
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/build-native": {
       "name": "@ax/build-native",
@@ -386,14 +408,16 @@
       "dependencies": {
         "@ax/stc-win-x64": "6.0.146",
         "@ax/stc-linux-x64": "6.0.146"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/apax-build": {
       "name": "@ax/apax-build",
       "version": "0.7.0",
       "integrity": "sha512-OkmqLq6SI0gv9x/7FLFmABuJYylHHyOzZ4Kvmfys2RGiP06/WbOpycmuqYBneK1zAe3KoBu8ZmelPdXbxcK4+w==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/apax-build/-/apax-build-0.7.0.tgz",
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/st-ls": {
       "name": "@ax/st-ls",
@@ -403,7 +427,8 @@
       "dependencies": {
         "@ax/st-ls-win-x64": "3.0.113",
         "@ax/st-ls-linux-x64": "3.0.113"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/target-llvm-win-x64": {
       "name": "@ax/target-llvm-win-x64",
@@ -416,7 +441,8 @@
       "cpu": [
         "x64"
       ],
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/target-llvm-linux-x64": {
       "name": "@ax/target-llvm-linux-x64",
@@ -429,7 +455,8 @@
       "cpu": [
         "x64"
       ],
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/target-mc7plus-win-x64": {
       "name": "@ax/target-mc7plus-win-x64",
@@ -442,7 +469,8 @@
       "cpu": [
         "x64"
       ],
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/target-mc7plus-linux-x64": {
       "name": "@ax/target-mc7plus-linux-x64",
@@ -455,7 +483,8 @@
       "cpu": [
         "x64"
       ],
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/trace-win-x64": {
       "name": "@ax/trace-win-x64",
@@ -595,7 +624,8 @@
       "dependencies": {
         "@ax/system-math": "6.0.94",
         "@ax/system-datetime": "6.0.94"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/axunitst-runner-linux-x64": {
       "name": "@ax/axunitst-runner-linux-x64",
@@ -688,7 +718,8 @@
       ],
       "dependencies": {
         "@ax/st-docs": "6.0.146"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/stc-linux-x64": {
       "name": "@ax/stc-linux-x64",
@@ -703,7 +734,8 @@
       ],
       "dependencies": {
         "@ax/st-docs": "6.0.146"
-      }
+      },
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/st-ls-win-x64": {
       "name": "@ax/st-ls-win-x64",
@@ -716,7 +748,8 @@
       "cpu": [
         "x64"
       ],
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/st-ls-linux-x64": {
       "name": "@ax/st-ls-linux-x64",
@@ -729,28 +762,32 @@
       "cpu": [
         "x64"
       ],
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/system-math": {
       "name": "@ax/system-math",
       "version": "6.0.94",
       "integrity": "sha512-lmkqZnJRT6zjAaVEKgWDwB1J7st+rgj/lfJc+6PZ/zgiRxoJ/s7BSTl/6YQ6k12RskKrA4E5VvLiqJhaNd3ssw==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-math/-/system-math-6.0.94.tgz",
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
     "@ax/system-datetime": {
       "name": "@ax/system-datetime",
       "version": "6.0.94",
       "integrity": "sha512-8xn57nA5NfZ6ImTxmFGvzFp7wLL38JdUgjsuEg+xbzs29e8ftvbTCNqaWMVdX05N4QNAqohq2BlEkIyFtDH8Qg==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-datetime/-/system-datetime-6.0.94.tgz",
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": "Package deprecated"
     },
     "@ax/st-docs": {
       "name": "@ax/st-docs",
       "version": "6.0.146",
       "integrity": "sha512-KUs6JC/dWedgnaxH7UrqAOuJm6rKS4gzXTLguqXbtWHKdDKOceIw1yODyjty4iuOm6TkDm2UX4ya6QFC84eBHA==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/st-docs/-/st-docs-6.0.146.tgz",
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     }
   },
   "workspaces": {}
