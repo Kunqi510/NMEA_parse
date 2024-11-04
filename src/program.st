@@ -7,7 +7,8 @@ PROGRAM MyProgram
         homeSignal : BOOL;
         workSignal : BOOL;
     END_VAR
-
+    
+    
     VAR
         workGroup_1 : WorkGroup;
         valve : ValveB;
@@ -26,7 +27,5 @@ PROGRAM MyProgram
     IF stopButton THEN
         workGroup_1.Stop();
     END_IF;
-    workGroup_1.WriteCyclic(gohome=>homeSignal,gowork=>workSignal);
-    
-    
+    workGroup_1.WriteCyclic(gohome=>homeSignal,gowork=>workSignal); 
 END_PROGRAM

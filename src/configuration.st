@@ -6,6 +6,7 @@ CONFIGURATION MyConfiguration
         startButton : BOOL;
         stopButton : BOOL;
         homeSignal:BOOL;
-        workSignal:BOOL;
+        workSignal : BOOL;
+    
     END_VAR
 END_CONFIGURATION
