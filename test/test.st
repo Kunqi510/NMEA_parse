@@ -3,7 +3,6 @@ USING ControlModule;
 
 NAMESPACE TestControlModule
 
-
     {TestFixture}
     CLASS TestValve
 

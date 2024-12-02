@@ -7,7 +7,8 @@
     "name": "control-system",
     "version": "0.0.0",
     "dependencies": {
-      "@fa_sup_cn/control-module": "^0.0.1"
+      "@fa_sup_cn/control-module": "^0.0.1",
+      "@ax/trace": "^2.8.1"
     },
     "devDependencies": {
       "@ax/sdk": "2311.0.3",
@@ -41,12 +42,12 @@
     },
     "@ax/dcp-utility": {
       "name": "@ax/dcp-utility",
-      "version": "1.1.2",
-      "integrity": "sha512-QMXgbfK5QCKOZl8drFBIXPkxn00E7NqT0ThkO2IwBFABqjNeWPjcqGEm89IvYGgm60zJ2XVpN/mI//3bWsY9ow==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/dcp-utility/-/dcp-utility-1.1.2.tgz",
+      "version": "1.1.3",
+      "integrity": "sha512-jW+IhdRJFE2/UQ/BOZwiZI2PXT5X4aATQjirm6gCD1wfe1MixRpep+8Sz7+L8OFgoH5SMeH29/78mmPLyp5+zw==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/dcp-utility/-/dcp-utility-1.1.3.tgz",
       "dependencies": {
-        "@ax/dcp-utility-win-x64": "1.1.2",
-        "@ax/dcp-utility-linux-x64": "1.1.2"
+        "@ax/dcp-utility-win-x64": "1.1.3",
+        "@ax/dcp-utility-linux-x64": "1.1.3"
       }
     },
     "@fa_sup_cn/control-module": {
@@ -57,6 +58,16 @@
       "dependencies": {
         "@ax/system-edgedetection": "^6.0.94",
         "@ax/system-timer": "^6.0.94"
+      }
+    },
+    "@ax/trace": {
+      "name": "@ax/trace",
+      "version": "2.8.1",
+      "integrity": "sha512-hMBCdnO3VjlZUwhRs8G80kcPPGk0OwkdXUCd7fxIsTYxePIKGE+vTN0myZwBi7d1kJwM5TlpdflXEjJyRlpn5w==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/trace/-/trace-2.8.1.tgz",
+      "dependencies": {
+        "@ax/trace-win-x64": "2.8.1",
+        "@ax/trace-linux-x64": "2.8.1"
       }
     },
     "@ax/axunitst": {
@@ -167,17 +178,6 @@
       "dependencies": {},
       "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit\nhttps://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
     },
-    "@ax/trace": {
-      "name": "@ax/trace",
-      "version": "2.7.0",
-      "integrity": "sha512-yUmzjL5IKJ9NX5Q1THHN+LtW6llsZa+tw/jRZYQzKcxXTFJrGcCo5Qy45Dh0loxWGjZKmIe4YVG1ZwP3fdihJQ==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/trace/-/trace-2.7.0.tgz",
-      "dependencies": {
-        "@ax/trace-win-x64": "2.7.0",
-        "@ax/trace-linux-x64": "2.7.0"
-      },
-      "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions"
-    },
     "@ax/diagnostic-buffer": {
       "name": "@ax/diagnostic-buffer",
       "version": "1.2.0",
@@ -224,9 +224,9 @@
     },
     "@ax/dcp-utility-win-x64": {
       "name": "@ax/dcp-utility-win-x64",
-      "version": "1.1.2",
-      "integrity": "sha512-PlUPceWRZ8+ZoGv0N2XzXpDAObNrO6UW3p0u5Yalm/uPdWqakDKfqBR7w0bh8cuR27deZYfAXXhTKflYHTPfSQ==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/dcp-utility-win-x64/-/dcp-utility-win-x64-1.1.2.tgz",
+      "version": "1.1.3",
+      "integrity": "sha512-G8MDXeKpVF/e1OMautnDZ0lYfiMZ/PN5xBn1jnEbWH1n8ZSWu0umxryBU2kNWls42alh5+ZKUAuJMxxfjQS0ow==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/dcp-utility-win-x64/-/dcp-utility-win-x64-1.1.3.tgz",
       "os": [
         "win32"
       ],
@@ -237,9 +237,9 @@
     },
     "@ax/dcp-utility-linux-x64": {
       "name": "@ax/dcp-utility-linux-x64",
-      "version": "1.1.2",
-      "integrity": "sha512-79aJkNKsKAb3fxnQi9ZwMEWfNhflZXswucH3fkbeH8RD0t2s6Dlg/4YDgdgEJNNnUUDPe30nUftSbhGrsSlBMg==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/dcp-utility-linux-x64/-/dcp-utility-linux-x64-1.1.2.tgz",
+      "version": "1.1.3",
+      "integrity": "sha512-Kgo4JNuDI/XTL+rOvhKPR7YOFL91u1ZLen2kxdtMuBm86+Qw4HuSDzXMI66ePWxwmKChQ/esYql8+5xpeLofng==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/dcp-utility-linux-x64/-/dcp-utility-linux-x64-1.1.3.tgz",
       "os": [
         "linux"
       ],
@@ -263,6 +263,32 @@
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-timer/-/system-timer-6.0.94.tgz",
       "dependencies": {},
       "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
+    },
+    "@ax/trace-win-x64": {
+      "name": "@ax/trace-win-x64",
+      "version": "2.8.1",
+      "integrity": "sha512-nc4aXwEJeSsbZjNe+mds5sQb3Fn+uDvKvUj4lrYHJkqBFp1JjzsPZKDUBXjyJs2s7GE+fHs8j19iQlvwtX0org==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/trace-win-x64/-/trace-win-x64-2.8.1.tgz",
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "dependencies": {}
+    },
+    "@ax/trace-linux-x64": {
+      "name": "@ax/trace-linux-x64",
+      "version": "2.8.1",
+      "integrity": "sha512-sw9WYyMHxWLpfcOlb4vjZlnPmWsOP9xTfhBh7lzPsdzNn5AYYKOZ/BeUoctB3jDQOpqZIbI7oHTo0kbSasFcUg==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/trace-linux-x64/-/trace-linux-x64-2.8.1.tgz",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "dependencies": {}
     },
     "@ax/axunitst-library": {
       "name": "@ax/axunitst-library",
@@ -485,32 +511,6 @@
       ],
       "dependencies": {},
       "deprecated": "This package version is no longer supported. It is your responsibility to use supported versions. For more information, visit https://console.simatic-ax.siemens.io/docs/releases#legal-conditions."
-    },
-    "@ax/trace-win-x64": {
-      "name": "@ax/trace-win-x64",
-      "version": "2.7.0",
-      "integrity": "sha512-hQeCiax20UPrSQIOMqSJg6OWdavunL9h6Irnlrgk4ht4hMZrDEWPnuIBfPNG2tAp3780GtefEl8b8QSk5h7jxQ==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/trace-win-x64/-/trace-win-x64-2.7.0.tgz",
-      "os": [
-        "win32"
-      ],
-      "cpu": [
-        "x64"
-      ],
-      "dependencies": {}
-    },
-    "@ax/trace-linux-x64": {
-      "name": "@ax/trace-linux-x64",
-      "version": "2.7.0",
-      "integrity": "sha512-LPfdNIbp9+7BuMFL/TtpQXGHrUx/+C1tTFC3YSWscP7TcHzDLWF3yBjqXHaNN01SmCi44S4AwJ9Q2E66QJ0Rtg==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/trace-linux-x64/-/trace-linux-x64-2.7.0.tgz",
-      "os": [
-        "linux"
-      ],
-      "cpu": [
-        "x64"
-      ],
-      "dependencies": {}
     },
     "@ax/diagnostic-buffer-win-x64": {
       "name": "@ax/diagnostic-buffer-win-x64",
